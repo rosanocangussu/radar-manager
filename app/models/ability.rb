@@ -7,7 +7,7 @@ class Ability
       if user.kind == 'manager'
         can :manage, :all
       elsif user.kind == 'leader'
-        can :acess, :rails_admin
+        can :access, :rails_admin
         can :dashboard
         can :manage, :Radar, user_id: user.id
         can :manage, :Team, user_id: user.id

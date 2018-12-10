@@ -1,2 +1,3 @@
 class Ring < ApplicationRecord
+    
 end
