@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  ring: one
+  team: one
+  isnew: false
+  description: MyText
+  link: MyString
+
+two:
+  name: MyString
+  ring: two
+  team: two
+  isnew: false
+  description: MyText
+  link: MyString
